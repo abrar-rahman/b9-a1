@@ -43,3 +43,41 @@
   width: 632px;
   
 }
+/* hOLIDAY SECTION */
+
+
+
+.holiday-main .container{
+  margin-top: 120px;
+}
+.holiday-main .container img{
+  margin: 35px 250px;
+}
+.holiday-main .container .holiday-text h1{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.holiday-main .container .holiday-text p{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 48px auto;
+}
+.holiday-main .container .holiday-text h3{
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
