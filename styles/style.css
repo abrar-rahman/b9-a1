@@ -9,7 +9,7 @@
 #header .banner-main{
   background-image: url(../resources/Banner-Image.png);
   background-repeat: no-repeat;
-  margin: 50px auto;
+  margin: 50px 140px;
   height: 600px;
   border-radius: 16px;
   width: 85%;
@@ -86,12 +86,13 @@
 /* midnight-party section */
 #midnight-party{
    margin: 120px 140px;
-
+  margin-bottom: 0px;
 }
 
 .midnight-party-main{
   background-image: url(../resources/Vectorrr.png);
   background-repeat: no-repeat;
+  width: auto;
   height: 600px; 
   padding: 120px 140px;
   border-radius: 15px;
@@ -133,4 +134,105 @@
   line-height: normal;
   margin-top: 50px;
   background-color: black;
+}
+
+
+/* place-date-time section */
+
+
+#place-date-time{
+  margin: 10px 100px;
+}
+.place-date-time-main{
+  max-width: 1600px;
+  height: 482px;
+  /* fill: linear-gradient(180deg, rgba(163, 3, 3, 0.1) 0%, rgba(233, 109, 109, 0) 100%); */
+  background-color: rgba(236, 181, 190, 0.337);
+}
+.place-date-time-text{
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  padding: 150px; 
+  text-align: center;
+}
+.place-date-time-text span{
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+
+
+
+/* portfolio section */
+#Portfolio-section{
+  
+}
+
+#Portfolio-section .portfolio-main{
+  width: 85%;
+  max-width: 1600px;
+  height: 7335px;
+  margin: 150px;
+  padding: 20px;
+  display: block;
+}
+
+.portfolio-main .portfolio-text{
+  margin-bottom: 20px;
+}
+.portfolio-main .portfolio-text h5{
+  color: #F00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.portfolio-main .portfolio-text h1{
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.portfolio-main .portfolio-text p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  max-width: 896;
+}
+
+.portfolio-main .portfolio-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 424px;
+  height: 450px;
+  flex-shrink: 0;
+  
+}
+.portfolio-main .portfolio-img img{
+  margin: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+.portfolio-main .portfolio-img img:hover{
+  transform: scale(1.1);
 }
