@@ -11,23 +11,25 @@
 #header .banner-main{
   background-image: url(../resources/Banner-Image.png);
   background-repeat: no-repeat;
+  width: 85%;
   margin: 50px 140px;
   height: 600px;
   border-radius: 16px;
- 
   align-items: center;
 }
 .banner-main .container{
-  display: inline-block;
-  /* padding: 250px 250px; */
-  
+ 
+  text-align: center;
  
   
 }
-
+.banner-main .container .banner-text *{
+  
+   */
+}
 .container .banner-text h5{
   color: #FFF;
-  text-align: center;
+  
   font-family: Merriweather;
   font-size: 32px;
   font-style: normal;
@@ -36,7 +38,7 @@
 }
 .container .banner-text h1{
   color: #FFF;
-  text-align: center;
+  
   font-family: Merriweather;
   font-size: 72px;
   font-style: normal;
@@ -45,9 +47,9 @@
   width: 632px;
   
 }
+
+
 /* hOLIDAY SECTION */
-
-
 
 .holiday-main .container{
   margin-top: 120px;
@@ -181,18 +183,17 @@
 }
 
 #Portfolio-section .portfolio-main{
-  /* width: 85%; */
-  /* max-width: 1600px; */
-  height: 7335px;
-  margin: 150px;
+  width: 85%;
+  margin: 50px 100px;
+  max-height: 7335px;
+  
   padding: 20px;
-  display: block;
-}
+} 
 
-.portfolio-main .portfolio-text{
+.portfolio-main {
   margin-bottom: 20px;
 }
-.portfolio-main .portfolio-text h5{
+.portfolio-main  h5{
   color: #F00;
   font-family: Inter;
   font-size: 24px;
@@ -202,7 +203,7 @@
 }
 
 
-.portfolio-main .portfolio-text h1{
+.portfolio-main  h1{
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -212,7 +213,7 @@
   text-transform: capitalize;
 }
 
-.portfolio-main .portfolio-text p{
+.portfolio-main  p{
   color: rgba(7, 2, 17, 0.60);
   font-family: Inter;
   font-size: 20px;
@@ -220,12 +221,13 @@
   font-weight: 400;
   line-height: 32px; /* 160% */
   max-width: 896;
+  margin-bottom: 20px;
 }
 
 .portfolio-main .portfolio-img{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
   width: 424px;
   height: 450px;
   flex-shrink: 0;
@@ -234,24 +236,67 @@
 .portfolio-main .portfolio-img img{
   margin: 24px;
   transition: transform 0.3s ease-in-out;
+  object-fit: cover;
 }
 .portfolio-main .portfolio-img img:hover{
   transform: scale(1.1);
 }
 
-#header .banner-main,
-.holiday-main .container,
-#midnight-party .midnight-party-main,
-#place-date-time .place-date-time-main,
-#Portfolio-section .portfolio-main{
-  /* width: 100%;
-  max-width: 100%; */
-}
 
-.banner-main .container,
-.holiday-main .container,
-.midnight-party-main .container,
-.place-date-time-main .container,
-.portfolio-main .portfolio-img {
-  margin: auto;
+/* newletter-section */
+.newletter-main{
+  width: 85%;
+  /* max-height: 1320px; */
+  margin: 0 auto;
+  max-width: 1320px;
+  height: 616px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.newletter-main .newletter-text{
+  padding: 170px 150px;
+  
+}
+.newletter-main .newletter-text h1{
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  /* width: 500px;
+  height: 60px; */}
+.newletter-main .newletter-text p{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+ 
+}
+#newletter form{
+  border-radius: 50px;
+  display: flex;
+  border: none;
+  margin: 10px auto;
+  
+}
+.newletter-main form input{
+  width: 440px;
+  height: 72px;
+  border-radius: 50px 0px 0px 50px;
+  margin-left: 200px;
+}
+.newletter-main form button{
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  color: #FFF;
+  background: #F00;
 }
