@@ -6,18 +6,20 @@
 }
 
 
+
+
 #header .banner-main{
   background-image: url(../resources/Banner-Image.png);
   background-repeat: no-repeat;
   margin: 50px 140px;
   height: 600px;
   border-radius: 16px;
-  width: 85%;
+ 
   align-items: center;
 }
 .banner-main .container{
   display: inline-block;
-  padding: 250px 250px;
+  /* padding: 250px 250px; */
   
  
   
@@ -85,21 +87,21 @@
 
 /* midnight-party section */
 #midnight-party{
-   margin: 120px 140px;
-  margin-bottom: 0px;
+   margin: 100px 100px;
 }
 
 .midnight-party-main{
+  /* max-width: 1600px; */
   background-image: url(../resources/Vectorrr.png);
   background-repeat: no-repeat;
-  width: auto;
+  
   height: 600px; 
   padding: 120px 140px;
   border-radius: 15px;
 }
 .midnight-party-main .container {
-  width: 85%;
-  max-width: 1320px;
+  /* width: 85%; */
+  /* max-width: 1320px; */
 }
 
 .midnight-party-main 
@@ -144,8 +146,8 @@
   margin: 10px 100px;
 }
 .place-date-time-main{
-  max-width: 1600px;
-  height: 482px;
+  /* max-width: 1600px;
+  height: 482px; */
   /* fill: linear-gradient(180deg, rgba(163, 3, 3, 0.1) 0%, rgba(233, 109, 109, 0) 100%); */
   background-color: rgba(236, 181, 190, 0.337);
 }
@@ -179,8 +181,8 @@
 }
 
 #Portfolio-section .portfolio-main{
-  width: 85%;
-  max-width: 1600px;
+  /* width: 85%; */
+  /* max-width: 1600px; */
   height: 7335px;
   margin: 150px;
   padding: 20px;
@@ -222,7 +224,7 @@
 
 .portfolio-main .portfolio-img{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 424px;
   height: 450px;
@@ -235,4 +237,21 @@
 }
 .portfolio-main .portfolio-img img:hover{
   transform: scale(1.1);
+}
+
+#header .banner-main,
+.holiday-main .container,
+#midnight-party .midnight-party-main,
+#place-date-time .place-date-time-main,
+#Portfolio-section .portfolio-main{
+  /* width: 100%;
+  max-width: 100%; */
+}
+
+.banner-main .container,
+.holiday-main .container,
+.midnight-party-main .container,
+.place-date-time-main .container,
+.portfolio-main .portfolio-img {
+  margin: auto;
 }
