@@ -24,28 +24,30 @@
   
 }
 .banner-main .container .banner-text *{
-  
-   */
+    
+   display: block;
 }
 .container .banner-text h5{
   color: #FFF;
-  
+  padding: 170px 550px 0px 530px;
   font-family: Merriweather;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 250px;
+  height: 40px;
 }
 .container .banner-text h1{
   color: #FFF;
-  
+  padding: 150px 250px;
   font-family: Merriweather;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
   line-height: 95px; /* 131.944% */
   width: 632px;
-  
+  height: 190px;
 }
 
 
@@ -315,6 +317,7 @@
   width: 85%;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 .footer-main .footer-text{
   color: #FFF;
@@ -335,6 +338,7 @@
   line-height: 40px; /* 166.667% */
   padding: 140px 120px;
   
-/* .footer-main .footer-img{
+.footer-main .footer-img *{
   display: flex;
-} */
+  text-align: center;
+}
